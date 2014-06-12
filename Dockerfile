@@ -8,7 +8,7 @@ RUN echo 'deb http://downloads-distro.mongodb.org/repo/debian-sysvinit dist 10ge
 RUN apt-get update 
 RUN apt-get install adduser
 #RUN apt-get install mongodb-10gen
-RUN apt-get install -y mongodb-10gen=2.0.3
+RUN apt-get install -y mongodb-10gen=2.2.7
 
 # Create the MongoDB data directory
 RUN mkdir -p /data/db
